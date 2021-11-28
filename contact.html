@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>RPA</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="images/headnavbar.png" alt="imgnavbar" class="imgnavbar">
+			<div id="menu-burger"><img src="images/menu-burger.png" alt="menu burger"></div>
+			<div id="bandeau">
+				<nav>
+					<div>
+						<a href="index.html">Accueil</a>
+					</div>
+					<div>
+						<a href="explicationrpa.html">Qu'est ce que la RPA</a>
+						<div class="sousmenu">
+							<div><a href="explicationRPA.html#presentation">Présentation du RPA</a></div>
+							<div><a href="explicationRPA.html#cquoi">Le RPA Qu’est ce que c’est ?</a></div>
+							<div><a href="explicationRPA.html#methode">Les différentes méthodes et niveaux de maturité du RPA</a></div>
+							<div><a href="explicationRPA.html#fonction">Fonctionnalité du RPA</a></div>
+							<div><a href="explicationRPA.html#domaine">Les domaines et cas d’usages courant du RPA</a></div>
+							<div><a href="explicationRPA.html#valrpa">La Valeur Métier du RPA et quelques détails</a></div>
+						</div>
+					</div>
+					<div>
+						<a href="acteurs.html">Acteurs de la RPA</a>
+						<div class="sousmenu">
+							<div><a href="acteurs.html#RPA-pour-qui-?">À qui est destiné la RPA ?</a></div>
+							<div><a href="acteurs.html#fournisseurs">Les fourni&shy;sseurs</a></div>
+							<div><a href="acteurs.html#en-faveur">Les acteurs en faveur de la RPA</a></div>
+							<div><a href="acteurs.html#critique">Les acteurs contre la RPA</a></div>
+						</div>
+					</div>
+					<div>
+						<a href="enjeux.html">Les enjeux de la RPA</a>
+						<div class="sousmenu">
+							<div><a href="enjeux.html#destruction">Les RPA : destructrices d'emploi ?</a></div>
+							<div><a href="enjeux.html#boulversement">Les RPA, à l'origine d'un boulversement sociétal</a></div>
+						</div>
+					</div>
+					<div>
+						<a href="casdapplication.html">Cas d'application</a>
+						<div class="sousmenu">
+							<div><a href="casdapplication.html#gestion">Gestion de l'entreprise</a></div>
+							<div><a href="casdapplication.html#information">Domaine de l'information</a></div>
+							<div><a href="casdapplication.html#accessibilite">Accessibilité</a></div>
+							<div><a href="casdapplication.html#medical">Domaine médical</a></div>
+						</div>
+					</div>
+					<div>
+						<a href="contact.html">Contact</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<h1>Contact</h1>
+
+			<form action="contact.html" method="get">
+				<div>
+					<label for="nom">Nom*</label>
+					<input id="nom" name="nom" type="text" required>
+				</div>
+
+				<div>
+					<label for="prenom">Prénom*</label>
+					<input id="prenom" name="prenom" type="text" required>
+				</div>
+
+				<div>
+					<label for="email">Adresse E-mail*</label>
+					<input id="email" name="mail" type="email" required>
+				</div>
+
+				<div>
+					<label for="code">Code postal*</label>
+					<input id="code" name="codepostal" type="text" required>
+				</div>
+
+				<div>
+					<label for="pays">Pays*</label>
+					<select id="pays" name="pays" required>
+							<option value="">Selectionnez une option</option>
+							<option value="blg">Belgique</option>
+							<option value="ca">Canada</option>
+							<option value="usa">États-Unis</option>
+							<option value="fr">France</option>
+							<option value="ru">Royaume-Uni</option>
+							<option value="su">Suisse</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="via">Vous avez entendu parler de nous via ?</label>
+					<select name="via" id="via">
+						<option value="ami">Un ami</option>
+						<option value="internet">Internet</option>
+						<option value="medias">Les médias "traditionnels"</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="date">Date à laquelle vous souhaitez être recontacté</label>
+					<input type="date" name="date" id="date">
+				</div>
+
+				<div>
+					<div><label for="texte">Exprimez vous :</label></div>
+					<textarea name="libre" id="texte" rows="6" cols="60"></textarea>
+				</div>
+
+				
+					<input type="submit" value="Envoyer">
+				
+			</form>
+			*champs nécessaires
+		</main>
+
+		<footer>
+			<div id="scroll_to_top">
+				<a href="#top"><img src="images/top.png" alt="Retourner en haut" /></a>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
